@@ -4,7 +4,7 @@ body{
 	background-color: #121212 !important;
 		
 }
-p{
+p, h2{
 	color: #eeeeee;
 	text-align: center;
 }
