@@ -1,5 +1,8 @@
 @charset "utf-8";
 
 body{
-	background-color: red;
+	background-color: #121212 !important;
+}
+p{
+	color: #eeeeee
 }
