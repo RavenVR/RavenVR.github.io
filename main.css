@@ -8,6 +8,9 @@ p{
 	color: #eeeeee;
 	text-align: center;
 }
+.welcome{
+	margin-top: 10px;
+}
 .pfp{
 	border-radius: 50%;
 	display: block;
