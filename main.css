@@ -10,6 +10,7 @@ p{
 }
 .welcome{
 	margin-top: 10px;
+	font-size: 25px;
 }
 .pfp{
 	border-radius: 50%;
@@ -17,7 +18,7 @@ p{
 	margin-left: auto;
  	margin-right: auto;
 	margin-top: 70px;
-	width: 25%;
+	width: 15%;
 	height: auto;
 }
 
