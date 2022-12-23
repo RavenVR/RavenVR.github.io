@@ -65,3 +65,15 @@ ul.myUL {
   	display: inline-block;
   	text-align: center;
 }
+img.render{
+	display: flex;
+	margin-left: auto;
+ 	margin-right: auto;
+	margin-top: 30px;
+	height: 200px;
+	width: auto;
+}
+p.a{
+	color: #eeeeee;
+	text-align: center;
+}
