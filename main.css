@@ -55,3 +55,13 @@ img.github-logo{
 	width: auto;
 
 }
+
+div.container {
+	color: #eeeeee;
+  	text-align: center;
+}
+
+ul.myUL {
+  	display: inline-block;
+  	text-align: center;
+}
