@@ -77,3 +77,25 @@ p.a{
 	color: #eeeeee;
 	text-align: center;
 }
+
+button{
+	background-color: #121212 !important;
+	border-color: #121212 !important;
+	border-right-color: #121212 !important;
+	align-content: center;
+	
+  	all: unset;
+}
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

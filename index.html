@@ -7,10 +7,6 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/avatars/1052263113573019649/06ba9a86ad246489e99516629725087c.webp?size=1024&width=0&height=256">
-	<script type="text/javascript" src="lastfm.api.md5.js"></script>
-	<script type="text/javascript" src="lastfm.api.js"></script>
-	<script type="text/javascript" src="lastfm.api.cache.js"></script>
-	<script type="text/javascript" src="json2.js"></script>
 
 </head>
 
@@ -30,23 +26,22 @@
 	
 	<a href="https://twitch.tv/raven0nvr"><img alt="Twitch logo" src="data/5968819.png" class="twitch-logo"></a>
 	<a  href="https://steamcommunity.com/id/Ravenisgayaf/"><img alt="steam logo" src="data/Steam_icon_logo.svg.png" class="github-logo"></a>
+	<div class="container">
+		<div class="vertical-center">
+			<button onClick="copyText()"><a><img alt="discord logo" src="data/3636-discord-logo.png" class="discord-logo"></a></button>
+		</div>
+	</div>
 	<script>
-	var cache = new LastFMCache();
+        function copyText() {
+      
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText("ravenvr").then(function(x) {
+			  alert("Discord has been copied to clipboard!");
+			});
 
-	/* Create a LastFM object */
-	var lastfm = new LastFM({
-	  apiKey    : '1b6a2f2c96f216eb794db04e84d23cbc',
-	  apiSecret : 'c9c7388f0db28f224b25ce27e14dbe1e',
-	  cache     : cache
-	});
-
-	/* Load some artist info. */
-	lastfm.artist.getInfo({success: function(data){
-	  console.log(lastfm.updateNowPlaying)
-	}, error: function(code, message){
-	  /* Show error message. */
-	}});
-	</script>
+        	}
+			
+    </script>
 
 </body>
 </html>
