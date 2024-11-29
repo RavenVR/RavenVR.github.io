@@ -1477,6 +1477,8 @@ textarea {
   padding-top: 0;
 }
 
+
+
 #app-mount .scroller_f2bfbb,
 #app-mount .reactors_f2bfbb {
   background: transparent;
@@ -1730,7 +1732,9 @@ html.platform-osx .wrapper-1Rf91z {
 html.platform-osx .scroller-2TZvBN {
   padding-top: 15px;
 }
-
+#app-mount .circleIcon_db6521 {
+  color: rgb(0, 0, 0,);
+}
 #app-mount .xenoLib-notifications {
   padding: calc(var(--window-padding) * 2 + 48px) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2);
   box-sizing: border-box;
